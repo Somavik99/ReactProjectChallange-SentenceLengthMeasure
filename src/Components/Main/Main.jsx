@@ -6,7 +6,7 @@ const Main = () => {
       <div>
         <div className="Value-view-container">
           <div className="Value-view">
-            <span >Words </span>
+            <span>Words </span>
             <span style={{ color: "black", fontSize: "20px" }}>0</span>
           </div>
           <div className="Value-view">
@@ -27,9 +27,21 @@ const Main = () => {
           </div>
         </div>
         <div id="Text">
-            <textarea name="TextArea" className="textArea"   rows="12" placeholder="Paste Your Text..."></textarea>
+          <textarea
+            name="TextArea"
+            className="textArea"
+            rows="15"
+            placeholder="Paste Your Text..."
+          ></textarea>
         </div>
-        <div></div>
+        <div className="Main-foot">
+          <div>
+            <span>Average Reading Time: </span>
+          </div>
+          <div>
+            <span>Longest word: </span>
+          </div>
+        </div>
       </div>
     </div>
   );
