@@ -26,8 +26,8 @@ const Main = () => {
             <span style={{ color: "black", fontSize: "20px" }}>0</span>
           </div>
         </div>
-        <div>
-            
+        <div id="Text">
+            <textarea name="TextArea" className="textArea"  cols="100" rows="40" placeholder="Please Enter Text"></textarea>
         </div>
         <div></div>
       </div>
