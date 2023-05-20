@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="Main-Header">
       <div className="Header-container">
-        <h3 className="Heading">Text Analyzer</h3>
+        <span className="Heading">Text Analyzer</span>
         <div className="Icon-container">
           <span style={{margin:"6px",padding:"4px"}}>
             <BsNewspaper />
