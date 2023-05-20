@@ -1,4 +1,5 @@
 import Header from "./Header/Header";
+import Main from "./Main/Main";
 import "./ModuleMeasure.css";
 
 const ModuleMeasure = () => {
@@ -8,7 +9,7 @@ const ModuleMeasure = () => {
         <Header />
       </div>
       <div>
-        
+        <Main/>
       </div>
     </div>
   );
