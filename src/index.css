@@ -7,7 +7,7 @@
 body {
   background-image: url("./assets/S23Ultra.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: fixed;
   background-attachment:scroll;
   background-color: #f0f2f5;
   background-size: cover;

@@ -27,7 +27,7 @@ const Main = () => {
           </div>
         </div>
         <div id="Text">
-            <textarea name="TextArea" className="textArea"  cols="100" rows="40" placeholder="Please Enter Text"></textarea>
+            <textarea name="TextArea" className="textArea"   rows="12" placeholder="Paste Your Text..."></textarea>
         </div>
         <div></div>
       </div>
