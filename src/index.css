@@ -5,7 +5,7 @@
   padding: 0;
 }
 body {
-  
+  vertical-align: initial;
   background-image: url("./assets/S23Ultra.png");
   background-repeat: no-repeat;
 background-position: 50% center;

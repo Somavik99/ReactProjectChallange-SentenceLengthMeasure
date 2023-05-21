@@ -1,13 +1,26 @@
+import { useState } from "react";
 import "./Main.css";
 
 const Main = () => {
+
+    const [ChangeText,setChangeText] = useState("")
+
+    const HandleChange = (e)=>{
+        setChangeText(e.target.value)
+        console.log(e.target.value)
+    }
+
+const WordChange = ()=>{
+    
+}
+
   return (
     <div>
       <div>
         <div className="Value-view-container">
           <div className="Value-view">
-            <span>Words </span>
-            <span style={{ color: "black", fontSize: "20px" }}>0</span>
+            <span >Words </span>
+            <span style={{ color: "black", fontSize: "20px" }} onChange={WordChange}>0</span>
           </div>
           <div className="Value-view">
             <span>Characters</span>
@@ -28,9 +41,11 @@ const Main = () => {
         </div>
         <div id="Text">
           <textarea
+          value={ChangeText}
             name="TextArea"
             className="textArea"
-            rows="15"
+            rows="14"
+            onChange={HandleChange}
             placeholder="Paste Your Text..."
           ></textarea>
         </div>
